@@ -8,14 +8,10 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-coffee-script.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-coffee-script.svg)](https://www.npmjs.org/package/jstransformer-coffee-script)
 
-## Installation
-
-    npm install jstransformer-coffee-script
-
 ## API
 
 ```js
-var coffee-script = require('jstransformer')(require('jstransformer-coffee-script'))
+var coffee-script = require('jstransformer')(require('jstransformer-coffeescript'))
 
 coffee.render('n = 42', {bare: true}).body
 //=> var n; n = 42;
