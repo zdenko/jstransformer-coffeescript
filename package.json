@@ -1,0 +1,36 @@
+{
+  "name": "jstransformer-coffeescript",
+  "version": "0.1",
+  "description": "Coffeescript support for JSTransformers.",
+  "keywords": [
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "coffeescript": "^2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "test-jstransformer": "^1"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer",
+    "posttest": "xo --space --no-semicolon index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zdenko/jstransformer-coffeescript.git"
+  },
+  "author": {
+    "name": "Zdenko",
+    "url": "http://github.com/zdenko"
+  },
+  "license": "MIT"
+}
