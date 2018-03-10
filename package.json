@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-coffeescript",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Coffeescript support for JSTransformers.",
   "keywords": [
     "jstransformer"
